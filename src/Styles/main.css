@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+body {
+  background-color: #eee;
+  font-family: "Urbanist", sans-serif;
+}
+
+* {
+  outline: none;
+}
+
+.contain {
+  width: 95%;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .contain {
+    max-width: 93%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contain {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contain {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contain {
+    max-width: 82%;
+  }
+}
+
+@media (min-width: 1460px) {
+  .contain {
+    max-width: 77%;
+  }
+}
+
+
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart {
+  right: -20%;
+}
+
+.product-card:hover .heart {
+  right: 0%;
+}
+
+.smooth {
+  transition: all .3s;
+}
+
+.btn {
+  cursor: pointer;
+  padding-block: .25em;
+  padding-inline: 1em;
+  border-radius: .25em;
+}
+
+.translate-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  background-color: #c6c6fc56;
+  backdrop-filter: blur(3px);
+}
