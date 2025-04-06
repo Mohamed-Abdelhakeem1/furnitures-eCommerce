@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/furnitures-eCommerce/home/",
+  base: "/furnitures-eCommerce/",
   plugins: [react(), tailwindcss()]
 });
