@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 import Category from "../../Common/Category";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { TCategory } from "../../Types/Types";
@@ -8,8 +8,8 @@ const Categories = () => {
 
   const getCats = useCallback(async () => {
     try {
-      const res = await axios.get("/src/assets/Category/categories.json");
-      const data = await res.data;
+      const res = await fetch("/src/assets/Category/categories.json");
+      const data = await res.json();
       setCats(data);
     } catch (error) {
       console.log(error);

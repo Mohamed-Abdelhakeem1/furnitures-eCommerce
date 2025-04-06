@@ -1,7 +1,7 @@
 import { FaFacebook, FaRegCopyright } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-
+import payImg from "/src/assets/card.png";
 const Footer = () => {
   return (
     <section className="py-8 bg-white border-t-1 border-blue-600">
@@ -103,7 +103,7 @@ const Footer = () => {
       <div className="contain text-center py-3">
         <img
           className="max-w-lg w-full mx-auto"
-          src="/src/assets/card.png"
+          src={payImg}
           alt="Payment Card"
         ></img>
         <h2 className="mt-3 text-sm sm:text-lg text-blue-900 font-bold flex-center gap-2">
