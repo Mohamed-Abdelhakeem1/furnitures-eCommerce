@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Mohamed-Abdelhakeem1/furnitures-eCommerce",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -12,7 +13,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "homepage": "https://github.com/Mohamed-Abdelhakeem1/furnitures-eCommerce",
     "@reduxjs/toolkit": "^2.6.1",
     "@tailwindcss/vite": "^4.0.14",
     "axios": "^1.8.4",
