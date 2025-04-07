@@ -14,7 +14,6 @@ function App() {
       <ModalReview />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/furnitures-eCommerce" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
