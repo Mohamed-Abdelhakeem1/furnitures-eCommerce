@@ -1,4 +1,4 @@
-// import axios from "axios";
+
 import Category from "../../Common/Category";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { TCategory } from "../../Types/Types";
@@ -16,8 +16,6 @@ const Categories = () => {
     }
   }, []);
   useEffect(() => {
-    // setTimeout(() => {
-    // }, 4000);
       getCats();
   }, [getCats]);
   const memoizedCats = useMemo(() => cats, [cats]);

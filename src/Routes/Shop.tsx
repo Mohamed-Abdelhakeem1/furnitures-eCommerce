@@ -8,7 +8,7 @@ const Shop = () => {
     <section className="py-8">
       <div className="contain">
         <h2 className="text-center text-4xl font-bold text-blue-900 mb-5">
-          Mohamed Our Products
+          Discover Our Products
         </h2>
         <div className="flex-center flex-wrap gap-3">
           {products?.length > 0 ? (
