@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Modern Gray Sofa",
+      "description": "A comfortable and stylish modern gray sofa perfect for any living room.",
+      "price": 499.99,
+      "category": "Sofas",
+      "image_url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Wooden Dining Table",
+      "description": "A classic wooden dining table that seats six people.",
+      "price": 799.99,
+      "category": "Dining Tables",
+      "image_url": "https://images.pexels.com/photos/2079243/pexels-photo-2079243.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ergonomic Office Chair",
+      "description": "An ergonomic office chair with adjustable settings for maximum comfort.",
+      "price": 299.99,
+      "category": "Office Chairs",
+      "image_url": "https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Minimalist Bookshelf",
+      "description": "A sleek, minimalist bookshelf with five tiers.",
+      "price": 199.99,
+      "category": "Shelving",
+      "image_url": "https://images.pexels.com/photos/276651/pexels-photo-276651.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Glass Coffee Table",
+      "description": "A modern glass coffee table with a metal frame.",
+      "price": 249.99,
+      "category": "Coffee Tables",
+      "image_url": "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Queen Size Bed Frame",
+      "description": "A sturdy queen size bed frame made of solid wood.",
+      "price": 599.99,
+      "category": "Beds",
+      "image_url": "https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Leather Recliner",
+      "description": "A luxurious leather recliner with adjustable positions.",
+      "price": 399.99,
+      "category": "Recliners",
+      "image_url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Round Dining Table",
+      "description": "A round dining table made of reclaimed wood.",
+      "price": 699.99,
+      "category": "Dining Tables",
+      "image_url": "https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Outdoor Patio Set",
+      "description": "A 4-piece outdoor patio set including chairs and a table.",
+      "price": 899.99,
+      "category": "Outdoor Furniture",
+      "image_url": "https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Vintage Armchair",
+      "description": "A vintage-style armchair with tufted upholstery.",
+      "price": 349.99,
+      "category": "Armchairs",
+      "image_url": "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Industrial Bar Stool",
+      "description": "An industrial-style bar stool with adjustable height.",
+      "price": 129.99,
+      "category": "Bar Stools",
+      "image_url": "https://images.pexels.com/photos/279618/pexels-photo-279618.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "L-Shaped Sectional Sofa",
+      "description": "A spacious L-shaped sectional sofa with plush cushions.",
+      "price": 1099.99,
+      "category": "Sofas",
+      "image_url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Mid-Century Modern Sideboard",
+      "description": "A mid-century modern sideboard with ample storage.",
+      "price": 549.99,
+      "category": "Storage",
+      "image_url": "https://images.pexels.com/photos/276715/pexels-photo-276715.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Bunk Bed with Ladder",
+      "description": "A space-saving bunk bed with an integrated ladder.",
+      "price": 749.99,
+      "category": "Beds",
+      "image_url": "https://images.pexels.com/photos/276566/pexels-photo-276566.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Chaise Lounge",
+      "description": "A comfortable chaise lounge with a modern design.",
+      "price": 399.99,
+      "category": "Lounge Chairs",
+      "image_url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Corner Desk",
+      "description": "A corner desk with built-in shelves for storage.",
+      "price": 349.99,
+      "category": "Desks",
+      "image_url": "https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "Ottoman with Storage",
+      "description": "An ottoman that doubles as storage space.",
+      "price": 149.99,
+      "category": "Ottomans",
+      "image_url": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Rustic TV Stand",
+      "description": "A rustic TV stand made from reclaimed wood.",
+      "price": 299.99,
+      "category": "TV Stands",
+      "image_url": "https://images.pexels.com/photos/276651/pexels-photo-276651.jpeg"
+    }
+  ]
+}
