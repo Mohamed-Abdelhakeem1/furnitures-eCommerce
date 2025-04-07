@@ -12,7 +12,7 @@ const WishItem = ({ product }: TProductProps) => {
     <div className="product-card text-center flex-center flex-col border border-gray-400 shadow-2xl overflow-hidden rounded-lg relative">
       <div className="w-60 text-center h-50 flex-center">
         <img
-          src={product.images[0]}
+          src={product.image_path}
           alt={product.name}
           className="mx-auto object-cover w-60 h-50"
         ></img>

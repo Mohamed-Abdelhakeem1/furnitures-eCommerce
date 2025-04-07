@@ -9,7 +9,7 @@ const HeroSlider = () => {
   const [slides, setSlides] = useState<Tslides[]>([]);
   const getSlides = async () => {
     try {
-      const res = await fetch("/public/assets/Hero_Slider/slider.json");
+      const res = await fetch("assets/Hero_Slider/slider.json");
       const slidesData = await res.json();
       setSlides(slidesData.heroSlider);
     } catch (error) {

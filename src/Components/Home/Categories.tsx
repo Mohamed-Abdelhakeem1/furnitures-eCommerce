@@ -8,7 +8,7 @@ const Categories = () => {
 
   const getCats = useCallback(async () => {
     try {
-      const res = await fetch("/public/assets/Category/categories.json");
+      const res = await fetch("assets/Category/categories.json");
       const data = await res.json();
       setCats(data);
     } catch (error) {

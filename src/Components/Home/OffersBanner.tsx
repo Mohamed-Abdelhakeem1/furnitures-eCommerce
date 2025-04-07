@@ -1,4 +1,4 @@
-import secondImg from "/public/assets/Hero_banner/01.jpg";
+import secondImg from "/assets/Hero_banner/01.jpg";
 import firstImg from "/public/assets/Hero_banner/04.jpg";
 
 const OffersBanner = () => {

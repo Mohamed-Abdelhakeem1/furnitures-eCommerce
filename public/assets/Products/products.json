@@ -8,9 +8,9 @@
       "price": 49.99,
       "category": "Lamps",
       "images": [
-        "/public/assets/Products/images/Product01/1.jpg",
-        "/public/assets/Products/images/Product01/2.jpg",
-        "/public/assets/Products/images/Product01/3.jpg"
+        "assets/Products/images/Product01/1.jpg",
+        "assets/Products/images/Product01/2.jpg",
+        "assets/Products/images/Product01/3.jpg"
       ],
       "reviews": [
         {
@@ -33,9 +33,9 @@
       "price": 159.99,
       "category": "Tables",
       "images": [
-        "/public/assets/Products/images/Product02/1.jpg",
-        "/public/assets/Products/images/Product02/2.jpg",
-        "/public/assets/Products/images/Product02/3.jpg"
+        "assets/Products/images/Product02/1.jpg",
+        "assets/Products/images/Product02/2.jpg",
+        "assets/Products/images/Product02/3.jpg"
       ],
       "reviews": [
         {
@@ -58,9 +58,9 @@
       "price": 249.99,
       "category": "Chairs",
       "images": [
-        "/public/assets/Products/images/Product03/1.jpg",
-        "/public/assets/Products/images/Product03/2.jpg",
-        "/public/assets/Products/images/Product03/3.jpg"
+        "assets/Products/images/Product03/1.jpg",
+        "assets/Products/images/Product03/2.jpg",
+        "assets/Products/images/Product03/3.jpg"
       ],
       "reviews": [
         {
@@ -83,9 +83,9 @@
       "price": 399.99,
       "category": "Dressers",
       "images": [
-        "/public/assets/Products/images/Product04/1.jpg",
-        "/public/assets/Products/images/Product04/2.jpg",
-        "/public/assets/Products/images/Product04/3.jpg"
+        "assets/Products/images/Product04/1.jpg",
+        "assets/Products/images/Product04/2.jpg",
+        "assets/Products/images/Product04/3.jpg"
       ],
       "reviews": [
         {
@@ -108,9 +108,9 @@
       "price": 299.99,
       "category": "Cots",
       "images": [
-        "/public/assets/Products/images/Product05/1.jpg",
-        "/public/assets/Products/images/Product05/2.jpg",
-        "/public/assets/Products/images/Product05/3.jpg"
+        "assets/Products/images/Product05/1.jpg",
+        "assets/Products/images/Product05/2.jpg",
+        "assets/Products/images/Product05/3.jpg"
       ],
       "reviews": [
         {
@@ -133,9 +133,9 @@
       "price": 129.99,
       "category": "Night Stands",
       "images": [
-        "/public/assets/Products/images/Product06/1.jpg",
-        "/public/assets/Products/images/Product06/2.jpg",
-        "/public/assets/Products/images/Product06/3.jpg"
+        "assets/Products/images/Product06/1.jpg",
+        "assets/Products/images/Product06/2.jpg",
+        "assets/Products/images/Product06/3.jpg"
       ],
       "reviews": [
         {
@@ -158,9 +158,9 @@
       "price": 899.99,
       "category": "Sofas",
       "images": [
-        "/public/assets/Products/images/Product07/1.jpg",
-        "/public/assets/Products/images/Product07/2.jpg",
-        "/public/assets/Products/images/Product07/3.jpg"
+        "assets/Products/images/Product07/1.jpg",
+        "assets/Products/images/Product07/2.jpg",
+        "assets/Products/images/Product07/3.jpg"
       ],
       "reviews": [
         {
@@ -183,9 +183,9 @@
       "price": 249.99,
       "category": "Shelves",
       "images": [
-        "/public/assets/Products/images/Product08/1.jpg",
-        "/public/assets/Products/images/Product08/2.jpg",
-        "/public/assets/Products/images/Product08/3.jpg"
+        "assets/Products/images/Product08/1.jpg",
+        "assets/Products/images/Product08/2.jpg",
+        "assets/Products/images/Product08/3.jpg"
       ],
       "reviews": [
         {
@@ -208,9 +208,9 @@
       "price": 89.99,
       "category": "Chairs",
       "images": [
-        "/public/assets/Products/images/Product09/1.jpg",
-        "/public/assets/Products/images/Product09/2.jpg",
-        "/public/assets/Products/images/Product09/3.jpg"
+        "assets/Products/images/Product09/1.jpg",
+        "assets/Products/images/Product09/2.jpg",
+        "assets/Products/images/Product09/3.jpg"
       ],
       "reviews": [
         {
@@ -233,9 +233,9 @@
       "price": 69.99,
       "category": "Lamps",
       "images": [
-        "/public/assets/Products/images/Product10/1.jpg",
-        "/public/assets/Products/images/Product10/2.jpg",
-        "/public/assets/Products/images/Product10/3.jpg"
+        "assets/Products/images/Product10/1.jpg",
+        "assets/Products/images/Product10/2.jpg",
+        "assets/Products/images/Product10/3.jpg"
       ],
       "reviews": [
         {
