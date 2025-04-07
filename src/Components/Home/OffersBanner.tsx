@@ -1,5 +1,5 @@
-import secondImg from "/src/assets/Hero_banner/01.jpg";
-import firstImg from "/src/assets/Hero_banner/04.jpg";
+import secondImg from "/public/assets/Hero_banner/01.jpg";
+import firstImg from "/public/assets/Hero_banner/04.jpg";
 
 const OffersBanner = () => {
   return (
@@ -18,7 +18,6 @@ const OffersBanner = () => {
         </div>
         <div className="relative w-full sm:flex-1 mt-2 sm:mt-0">
           <div className="w-full">
-            {/* <img className="w-full" src="/src/assets/Hero_banner/01.jpg"></img> */}
             <img className="w-full" src={secondImg}></img>
           </div>
           <div className="absolute top-0 p-3">

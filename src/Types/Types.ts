@@ -10,11 +10,10 @@ export type TCategoryProps = {
 export type Tproduct = {
   id: number;
   name: string;
-  slug: string;
   description: string;
   price: number;
   category: string;
-  images: string[];
+  image_path: string;
   reviews: [];
   quantity: number;
   totalPrice: number;

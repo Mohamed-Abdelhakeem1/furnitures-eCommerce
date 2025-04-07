@@ -5,8 +5,7 @@ import useFetchData from "../../Hooks/FetchData";
 import { Tproduct } from "../../Types/Types";
 
 const Features = () => {
-  const order: string = "products";
-  const products = useFetchData(order);
+  const products = useFetchData();
   return (
     <section className="py-4">
       <div className="contain">

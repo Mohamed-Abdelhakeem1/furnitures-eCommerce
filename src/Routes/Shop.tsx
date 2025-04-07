@@ -3,8 +3,7 @@ import FetchData from "../Hooks/FetchData";
 import { Tproduct } from "../Types/Types";
 
 const Shop = () => {
-  const order:string = "products"
-  const products = FetchData(order);
+  const products = FetchData();
   return (
     <section className="py-8">
       <div className="contain">

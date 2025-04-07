@@ -9,7 +9,7 @@ const HeroSlider = () => {
   const [slides, setSlides] = useState<Tslides[]>([]);
   const getSlides = async () => {
     try {
-      const res = await fetch("/src/assets/Hero_Slider/slider.json");
+      const res = await fetch("/public/assets/Hero_Slider/slider.json");
       const slidesData = await res.json();
       setSlides(slidesData.heroSlider);
     } catch (error) {
@@ -46,7 +46,9 @@ const HeroSlider = () => {
                 <h2 className=" text-slate-900 text-2xl sm:text-4xl lg:text-5xl font-bold py-2 sm:py-4 [text-shadow:0px_0px_5px_#fff]">
                   {slide.title}
                 </h2>
-                <p className="text-blue-900 italic text-sm sm:text-lg">{slide.subtitle}</p>
+                <p className="text-blue-900 italic text-sm sm:text-lg">
+                  {slide.subtitle}
+                </p>
                 <Link
                   to="/shop"
                   className="block w-fit mx-auto px-4 py-2 bg-blue-900 hover:bg-blue-700 transition-all duration-300 mt-3 text-sm sm:text-lg text-white rounded-lg cursor-pointer"

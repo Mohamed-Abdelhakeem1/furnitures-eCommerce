@@ -1,18 +1,18 @@
 import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 
-const useFetchData = (demand: string) => {
+const useFetchData = () => {
   const [state, setState] = useState([]);
 
   const fetchDataAsync = useCallback(async () => {
     try {
-      const res = await axios.get(`/src//assets/Products/${demand}.json`);
+      const res = await axios.get(`https://furniture-api.fly.dev/v1/products`);
       const data = await res.data;
-      setState(data[demand]);
+      setState(data.data);
     } catch (error) {
       console.log(error);
     }
-  }, [demand]);
+  }, []);
   useEffect(() => {
     fetchDataAsync();
   }, [fetchDataAsync]);

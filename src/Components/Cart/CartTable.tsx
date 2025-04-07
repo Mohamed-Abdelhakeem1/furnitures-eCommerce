@@ -55,7 +55,7 @@ const CartTable = () => {
                     {product.name}
                   </th>
                   <td className="px-2 py-1">
-                    <img className="h-20 w-20" src={product.images[0]}></img>
+                    <img className="h-20 w-20" src={product.image_path}></img>
                   </td>
                   <td className="px-3 py-4">$ {product.price}</td>
                   <td className="py-4 mt-2 text-black flex-center gap-2">
