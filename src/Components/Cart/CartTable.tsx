@@ -15,9 +15,7 @@ const CartTable = () => {
   const finalPrice = cartItems.reduce((a, b) => {
     return a + b.totalPrice;
   }, 0);
-
   const dispatcher = useAppDispatch();
-
   return (
     <>
       {cartItems.length > 0 ? (
@@ -55,7 +53,7 @@ const CartTable = () => {
                     {product.name}
                   </th>
                   <td className="px-2 py-1">
-                    <img className="h-20 w-20" src={product.image_path}></img>
+                    <img className="h-20 w-20" src={product.images[0]}></img>
                   </td>
                   <td className="px-3 py-4">$ {product.price}</td>
                   <td className="py-4 mt-2 text-black flex-center gap-2">

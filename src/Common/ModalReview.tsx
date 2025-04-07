@@ -21,7 +21,7 @@ const ModalReview = () => {
             <div className="image h-120 w-250 overflow-hidden flex-center">
               <img
                 className=" h-full object-cover"
-                src={product?.image_path}
+                src={product?.images[0]}
                 alt={product!.name}
               />
             </div>

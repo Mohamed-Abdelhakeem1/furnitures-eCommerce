@@ -11,9 +11,13 @@ const ProductCard = ({ product }: TProductProps) => {
   const dispatcher = useAppDispatch();
   const isLiked = wishItems.find(({ id }) => id === product.id);
   return (
-    <div className="product-card flex-center flex-col border w-70 border-gray-400 shadow-2xl overflow-hidden rounded-lg relative">
-      <div className="h-70 flex-center">
-        <img className="h-70 object-cover" src={product.image_path} alt={product.category}></img>
+    <div className="product-card flex-center flex-col border w-60 border-gray-400 shadow-2xl overflow-hidden rounded-lg relative">
+      <div className="h-50 flex-center overflow-hidden">
+        <img
+          className=" object-cover"
+          src={product.images[0]}
+          alt={product.category}
+        ></img>
       </div>
       <div className="mt-1 text-center">
         <h2 className="text-lg text-blue-900 font-bold">{product.name}</h2>

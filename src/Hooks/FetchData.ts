@@ -6,9 +6,9 @@ const useFetchData = () => {
 
   const fetchDataAsync = useCallback(async () => {
     try {
-      const res = await axios.get(`https://furniture-api.fly.dev/v1/products`);
+      const res = await axios.get(`assets/Products/products.json`);
       const data = await res.data;
-      setState(data.data);
+      setState(data.products);
     } catch (error) {
       console.log(error);
     }

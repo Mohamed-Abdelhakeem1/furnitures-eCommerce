@@ -13,7 +13,7 @@ export type Tproduct = {
   description: string;
   price: number;
   category: string;
-  image_path: string;
+  images: string[];
   reviews: [];
   quantity: number;
   totalPrice: number;
