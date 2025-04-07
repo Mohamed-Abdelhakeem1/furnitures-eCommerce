@@ -9,7 +9,7 @@ import store from "./Store/Store.ts";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
-      <Router>
+      <Router basename="/furnitures-eCommerce">
         <App />
       </Router>
     </Provider>
