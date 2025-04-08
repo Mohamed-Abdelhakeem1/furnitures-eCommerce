@@ -10,13 +10,13 @@ const NavBar = () => {
   return (
     <nav className="z-10 sticky top-0 bg-gray-200 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
       <div className="contain flex flex-col justify-between items-center py-2 sm:flex-row">
-        <Link to="/" className="logo font-bold text-2xl text-blue-900">
+        <Link to="/home" className="logo font-bold text-2xl text-blue-900">
           Furnitures House
         </Link>
-        <ul className="text-[14px] flex justify-between gap-0 lg:gap-8 font-bold border-t-1 sm:border-none">
+        <ul className="text-[14px] sm:text-base w-full sm:w-fit flex justify-between gap-0 lg:gap-8 font-bold border-t-1 sm:border-none">
           <li>
             <Link
-              className="py-2 px-1 sm:px-4 flex items-center gap-1 hover:text-gray-600 smooth"
+              className="py-2 px-2 sm:px-4 flex items-center gap-1 hover:text-gray-600 smooth"
               to="/home"
             >
               Home
