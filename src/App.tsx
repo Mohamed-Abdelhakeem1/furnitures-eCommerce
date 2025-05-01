@@ -6,6 +6,7 @@ import Cart from "./Routes/Cart";
 import Wishlist from "./Routes/Wishlist";
 import Footer from "./Layout/Footer";
 import ModalReview from "./Common/ModalReview";
+import NotFound from "./Routes/NotFound";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
