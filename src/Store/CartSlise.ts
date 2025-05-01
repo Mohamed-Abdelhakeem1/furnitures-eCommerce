@@ -25,11 +25,12 @@ const cartSlice = createSlice({
     },
     reduceOne: (state, action) => {
       const selectedElement = state.find(({ id }) => id === action.payload.id);
-      selectedElement!.quantity -= 1;
-      selectedElement!.totalPrice =
-        selectedElement!.quantity * selectedElement!.price;
-      if (selectedElement!.quantity === 0) {
-        return state.filter((el) => el.id !== selectedElement!.id);
+      if (selectedElement!.quantity > 1) {
+        selectedElement!.quantity -= 1;
+        selectedElement!.totalPrice =
+          selectedElement!.quantity * selectedElement!.price;
+      } else {
+        return state.filter((el) => el.id !== action.payload.id);
       }
     },
     deleteFromCart: (state, action) => {
